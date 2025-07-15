@@ -46,7 +46,7 @@ public class Menu {
 
         // The user can leave the program if the restaurant is not in his location
         if (input.equalsIgnoreCase("exit")) {
-          System.out.println("\nThank you for using the app.\nWishing you a delicious day ahead!");
+          System.out.println("\nThank you for using the app.\nHave a nice day!");
           sc.close();
           return;
         } else {
@@ -164,9 +164,9 @@ public class Menu {
           writer.write(custAddress + "\n" + custCity + "\n");
           writer
               .write("If you need to contact the restaurant, their number is " + restaurant.restaurantContact + ".\n");
-          writer.write("Thank you for your order.\nThanks for using Food Quick – you're the best!"); // change wording
+          writer.write("Thank you for your order.\nHave a nice day!"); 
         } else {
-          writer.write("Thank you for collecting your order.\nThanks for using Food Quick – you're the best!"); // change wording
+          writer.write("Thank you for collecting your order.\nHave a nice day!"); 
         }
 
         System.out.println("Invoice created as invoice.txt");
