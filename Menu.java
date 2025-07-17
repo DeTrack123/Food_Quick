@@ -46,7 +46,7 @@ public class Menu {
 
         // The user can leave the program if the restaurant is not in his location
         if (input.equalsIgnoreCase("exit")) {
-          System.out.println("\nThank you for using the app.");
+          System.out.println("\nThank you for using the app.\nHave a nice day!");
           sc.close();
           return;
         } else {
@@ -93,6 +93,7 @@ public class Menu {
       String driverInput = sc.nextLine();
 
       Driver bestDriver = null;
+
       // If delivery is requested, find best driver
       if (driverInput.trim().equalsIgnoreCase("yes")) {
         try (BufferedReader reader = new BufferedReader(new FileReader("Driver-info.txt"))) {
