@@ -164,9 +164,9 @@ public class Menu {
           writer.write(custAddress + "\n" + custCity + "\n");
           writer
               .write("If you need to contact the restaurant, their number is " + restaurant.restaurantContact + ".\n");
-          writer.write("Thank you for your order.\nHave a nice day!"); 
+          writer.write("Thank you for your order.\nThanks for using Food Quick you're the best!"); // Change wording to Thanks for using Food Quick you're the best!
         } else {
-          writer.write("Thank you for collecting your order.\nHave a nice day!"); 
+          writer.write("Thank you for collecting your order.\nThanks for using Food Quick you're the best!"); // Change wording to Thanks for using Food Quick you're the best!
         }
 
         System.out.println("Invoice created as invoice.txt");
