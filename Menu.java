@@ -46,7 +46,7 @@ public class Menu {
 
         // The user can leave the program if the restaurant is not in his location
         if (input.equalsIgnoreCase("exit")) {
-          System.out.println("\nThank you for using the app.");
+          System.out.println("\nThank you for using the app.\nWishing you a delicious day ahead!");
           sc.close();
           return;
         } else {
@@ -124,7 +124,7 @@ public class Menu {
             if (collectInput.equalsIgnoreCase("yes")) {
               System.out.println("We are looking forward to meeting you in person. See you soon!");
             } else {
-              System.out.println("Thank you for using the app.\nHave a nice day!");
+              System.out.println("Thank you for using the app.\nWishing you a delicious day ahead!");
               sc.close();
               return;
             }
